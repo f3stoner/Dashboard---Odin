@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containerMain">
+        <div class="header">
+            <form action="/search" method="get">
+                <label for="search-input"></label>
+                <input type="text" id="search-input" name="query" placeholder="Search">
+                <button type="submit">Submit</button>
+            </form>
+            <div class="greeting">
+                <div class="welcome">Hi there,</div>
+                <div class="username">Morgan Oakley (@morgan)</div>
+            </div>
+                <div class="headerRight">
+                    <div class="rightUsername">Morgan Oakley</div>
+                    <div class="buttons"><button>New</button><button>Upload</button><button>Share</button></div>
+                </div>
+        </div>
+        <div class="sidebar">
+            <div class="logo">Dashboard</div>
+            <div class="nav">
+                    <ul class="navOne">
+                        <li class="list-item">Home</li>
+                        <li class="list-item">Profile</li>
+                        <li class="list-item">Messages</li>
+                        <li class="list-item">History</li>
+                        <li class="list-item">Tasks</li>
+                        <li class="list-item">Communities</li>
+                    </ul>
+                    <ul class="navTwo">
+                        <li class="list-item">Settings</li>
+                        <li class="list-item">Support</li>
+                        <li class="list-item">Privacy</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="mainContent">
+            <div class="subtitle">Your Projects</div>
+            <div class="squares">
+                <div class="square"><div class="sub">Super Cool Project</div><div class="text">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div></div>
+                <div class="square"><div class="sub">Impossible App</div> <div class="text">In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</div></div>
+                <div class="square"><div class="sub">Ad Blocker</div> <div class="text">Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</div></div>
+                <div class="square"><div class="sub">Less Cool Project</div> <div class="text">Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</div></div>
+                <div class="square"><div class="sub">Easy Peasy Project</div> <div class="text">Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</div></div>
+                <div class="square"><div class="sub">Money Maker</div> <div class="text">Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis new sem vel aliquam.</div></div>
+            </div>
+            <div class="rightRail">
+                <div class="announcements">
+                    <div class="titleAnnounce">Announcements</div>
+                    <div class="wrap">
+                        <div class="post"><h5>Site Maintenance</h5><p class="inner">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p></div>
+                        <div class="post"><h5>Community Share Day</h5><p class="inner">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p></div>
+                        <div class="post"><h5>Updated Privacy Policy</h5><p class="inner">Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p></div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <div class="titleTrend">Trending</div>
+                    <div class="wrap">
+                        <div class="post"><img src="" alt="" class="userLogo"><div class="userName">@tegan<div class="comment">World Peace Builder</div></div></div>
+                        <div class="post"><img src="" alt="" class="userLogo"><div class="userName">@morgan<div class="comment">Super Cool Project</div></div></div>
+                        <div class="post"><img src="" alt="" class="userLogo"><div class="userName">@kendall<div class="comment">Life Changing App</div></div></div>
+                        <div class="post"><img src="" alt="" class="userLogo"><div class="userName">@alex<div class="comment">No Traffic Maker</div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
